@@ -4,8 +4,8 @@ import face_recognition as fr
 
 detector = dlib.get_frontal_face_detector()
 
-known_face_1 = fr.load_image_file(r"C:\Codes\Face Recognition\Sahil.jpg")
-known_face_2 = fr.load_image_file(r"C:\Codes\Face Recognition\Kshitij.jpg")
+known_face_1 = fr.load_image_file(r"Sahil.jpg")
+known_face_2 = fr.load_image_file(r"Kshitij.jpg")
 known_encoding_1 = fr.face_encodings(known_face_1)[0]
 known_encoding_2 = fr.face_encodings(known_face_2)[0]
 
